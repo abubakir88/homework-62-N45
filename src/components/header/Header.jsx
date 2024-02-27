@@ -11,8 +11,16 @@ function Header() {
                 <img src="/images/website-logo.png" alt="logo" />
               </a>
               <div className="nav-items">
-                <nav className="item"></nav>
+                <a className="nav-item">Home</a>
+                <a className="nav-item">About</a>
+                <a className="nav-item">Services</a>
+                <a className="nav-item">Articles</a>
+                <a className="nav-item">Contact</a>
               </div>
+            </div>
+            <div className="right-nav">
+              <a href="#">Cart(0)</a>
+              <button>Get a free quote</button>
             </div>
           </nav>
         </div>
