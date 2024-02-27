@@ -1,9 +1,14 @@
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Footer from './components/footer/Footer';
+
 function App() {
   return (
-    <>
-      <h1>hi</h1>
-      <img src="/images/logo.png" alt="aaa" />
-    </>
+    <div className="app">
+      <Header />
+      <Hero />
+      <Footer />
+    </div>
   );
 }
 
