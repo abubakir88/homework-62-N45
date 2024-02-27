@@ -8,12 +8,18 @@ function Header() {
           <nav>
             <div className="left-nav">
               <a href="#" className="logo">
-                <img src="/images/website-logo.png" alt="logo" />
+                <img src="/images/website-logo.svg" alt="logo" />
               </a>
               <div className="nav-items">
-                <a className="nav-item">Home</a>
-                <a className="nav-item">About</a>
-                <a className="nav-item">Services</a>
+                <a className="nav-item" href="#home">
+                  Home
+                </a>
+                <a className="nav-item" href="#about">
+                  About
+                </a>
+                <a className="nav-item" href="#our">
+                  Services
+                </a>
                 <a className="nav-item">Articles</a>
                 <a className="nav-item">Contact</a>
               </div>

@@ -4,12 +4,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
     padding-left: 120px;
-    max-width: 90%;
     .hero-texts {
       max-width: 591px;
+      h1 {
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 74px;
+        color: #211f54;
+      }
+      p {
+        font-size: 21px;
+        color: #6e7191;
+        padding: 22px 0 34px 0;
+      }
       .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
         button {
           background-color: #0075ff;
           border-radius: 14px;
@@ -23,11 +37,27 @@
             transition: 0.4s;
           }
         }
+        .number {
+          display: flex;
+          gap: 16px;
+          p {
+            max-width: 236px;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            span {
+              display: inline-block;
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 36.01px;
+              color: #211f54;
+            }
+          }
+        }
       }
     }
     .hero-img {
       img {
-        text-align: end;
       }
     }
   }

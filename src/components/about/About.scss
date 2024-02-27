@@ -1,0 +1,82 @@
+.About {
+  padding-bottom: 155px;
+  .About-content {
+    .title {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 21px;
+      padding-bottom: 64px;
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        color: #211f54;
+      }
+      p {
+        line-height: 30.01px;
+        color: #6e7191;
+        font-size: 21px;
+      }
+    }
+    .about-cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      .card {
+        text-align: center;
+        img {
+          max-width: 240px;
+        }
+        h1 {
+          padding: 39px 0 16px 0;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+          color: #211f54;
+        }
+        p {
+          max-width: 412px;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #6e7191;
+        }
+      }
+    }
+    .about-btns {
+      padding-top: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      button:first-child {
+        background-color: #0075ff;
+        border-radius: 14px;
+        color: #fff;
+        padding: 18px 24px;
+        border: 3px solid transparent;
+        font-size: 16px;
+        &:hover {
+          background-color: transparent;
+          color: #211f54;
+          transition: 0.4s;
+        }
+      }
+      button:last-child {
+        background-color: transparent;
+        border-radius: 14px;
+        color: #211f54;
+        padding: 18px 24px;
+        border: 3px solid transparent;
+        font-size: 16px;
+        &:hover {
+          background-color: #0075ff;
+          color: #fff;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
