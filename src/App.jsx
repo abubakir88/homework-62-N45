@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Our from "./components/our/Our";
 import Follow from "./components/follow/Follow";
+import Articles from "./components/articles/Articles";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Our />
       <Follow />
+      <Articles />
       <Footer />
     </div>
   );

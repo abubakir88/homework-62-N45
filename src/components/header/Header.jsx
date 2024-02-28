@@ -20,7 +20,7 @@ function Header() {
                 <a className="nav-item" href="#our">
                   Services
                 </a>
-                <a className="nav-item" href="#follow">
+                <a className="nav-item" href="#Articles">
                   Articles
                 </a>
                 <a className="nav-item" href="contact">
