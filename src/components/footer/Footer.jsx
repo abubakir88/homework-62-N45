@@ -47,6 +47,17 @@ function Footer() {
                 <button>Request a free quote</button>
               </div>
             </div>
+            <hr />
+            <div className="footer-foot">
+              <a href="#">
+                <img src="/images/website-logo.svg" alt="" />
+              </a>
+              <p>
+                Copyright © Cleaning X | Designed by <a>BRIX Templates</a>-
+                Powered by
+                <a>Webflow -Licenses</a>
+              </p>
+            </div>
           </div>
         </div>
       </footer>

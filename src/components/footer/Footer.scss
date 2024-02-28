@@ -107,5 +107,18 @@ footer {
         }
       }
     }
+    .footer-foot {
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: #6e7191;
+        a {
+          text-decoration: underline;
+          color: #0075ff;
+        }
+      }
+    }
   }
 }
