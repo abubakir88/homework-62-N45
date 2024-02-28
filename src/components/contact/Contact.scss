@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     .Contact-texts {
       max-width: 487px;
       h1 {
