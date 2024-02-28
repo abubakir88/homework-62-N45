@@ -20,8 +20,12 @@ function Header() {
                 <a className="nav-item" href="#our">
                   Services
                 </a>
-                <a className="nav-item">Articles</a>
-                <a className="nav-item">Contact</a>
+                <a className="nav-item" href="#follow">
+                  Articles
+                </a>
+                <a className="nav-item" href="contact">
+                  Contact
+                </a>
               </div>
             </div>
             <div className="right-nav">

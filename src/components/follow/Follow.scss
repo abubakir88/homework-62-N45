@@ -1,0 +1,72 @@
+.follow {
+  padding-top: 146px;
+  .follow-content {
+    background-color: #211f54;
+    border-radius: 24px;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 72px;
+    .follow-texts {
+      max-width: 556px;
+      h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 16px;
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        color: #fff;
+        max-width: 498px;
+        padding-bottom: 18px;
+      }
+      p {
+        font-size: 21px;
+        color: #fff;
+        padding-bottom: 12px;
+        line-height: 40px;
+      }
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        button {
+          background-color: #0075ff;
+          border-radius: 14px;
+          color: #fff;
+          padding: 18px 24px;
+          border: 3px solid #0075ff;
+          font-size: 16px;
+          &:hover {
+            background-color: transparent;
+            color: #0075ff;
+            transition: 0.4s;
+          }
+        }
+        .number {
+          display: flex;
+          gap: 16px;
+          p {
+            max-width: 236px;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            color: #fff;
+            span {
+              display: inline-block;
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 36.01px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
