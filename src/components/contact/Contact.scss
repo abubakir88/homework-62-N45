@@ -2,6 +2,9 @@
   background-color: #f7f9fc;
   .Contact-content {
     padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     .Contact-texts {
       max-width: 487px;
       h1 {
@@ -80,6 +83,64 @@
           background-color: #0075ff;
           color: #fff;
           transition: 0.3s;
+        }
+      }
+    }
+    form {
+      background-color: #fff;
+      max-width: 673px;
+      .inputs {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        justify-content: space-between;
+        padding: 84px 64px 85px 61px;
+        input {
+          border: none;
+          outline: none;
+          border-radius: 16px;
+          border: 1px solid #eff0f6;
+          box-shadow: 0px 2px 12px 0px #14142b14;
+          padding: 20px 20px;
+          font-size: 18px;
+        }
+        label {
+          font-size: 18px;
+          font-weight: 400;
+          color: #211f54;
+          cursor: pointer;
+        }
+        .name {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+        textarea {
+          border: none;
+          outline: none;
+          border-radius: 16px;
+          border: 1px solid #eff0f6;
+          box-shadow: 0px 2px 12px 0px #14142b14;
+          font-size: 18px;
+          padding: 20px 12px;
+          width: 550px;
+          resize: none;
+        }
+        button {
+          color: #fff;
+          background-color: #0075ff;
+          border: 3px solid transparent;
+          padding: 26px 20px;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          border-radius: 14px;
+          &:hover {
+            background-color: transparent;
+            border-color: #0075ff;
+            color: #0075ff;
+            transition: 0.4s;
+          }
         }
       }
     }
