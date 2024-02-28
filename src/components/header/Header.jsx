@@ -23,7 +23,7 @@ function Header() {
                 <a className="nav-item" href="#Articles">
                   Articles
                 </a>
-                <a className="nav-item" href="contact">
+                <a className="nav-item" href="#contact">
                   Contact
                 </a>
               </div>
